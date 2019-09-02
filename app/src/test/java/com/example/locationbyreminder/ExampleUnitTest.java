@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.locationbyreminder;
 
 import org.junit.Test;
 

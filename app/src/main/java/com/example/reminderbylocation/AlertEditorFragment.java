@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 import com.example.reminderbylocation.Data.AlertData;
 import com.example.reminderbylocation.Data.DataBaseManager;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 import com.google.android.gms.maps.model.LatLng;
 
 public class AlertEditorFragment extends Fragment{

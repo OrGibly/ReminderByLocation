@@ -21,7 +21,7 @@ import com.example.reminderbylocation.Geofence.GeofencingManager;
 import com.example.reminderbylocation.Location.LocationManager;
 import com.example.reminderbylocation.Map.Alert;
 import com.example.reminderbylocation.Map.AlertMiniEditorFragment;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;

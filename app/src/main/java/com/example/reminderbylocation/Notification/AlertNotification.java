@@ -9,7 +9,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 
 import com.example.reminderbylocation.Data.AlertData;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 
 public class AlertNotification extends Notification {
 

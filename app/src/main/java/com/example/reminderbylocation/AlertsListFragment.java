@@ -18,7 +18,7 @@ import com.example.reminderbylocation.Adapters.AlertsListRecycleViewAdapter;
 import com.example.reminderbylocation.Data.AlertData;
 import com.example.reminderbylocation.Data.DataBaseManager;
 import com.example.reminderbylocation.Geofence.GeofencingManager;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 
 
 public class AlertsListFragment extends Fragment implements Updateable {

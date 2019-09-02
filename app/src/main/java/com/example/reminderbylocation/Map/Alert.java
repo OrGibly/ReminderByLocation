@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 
 import com.example.reminderbylocation.App;
 import com.example.reminderbylocation.Data.AlertData;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;

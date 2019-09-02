@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.example.reminderbylocation.Data.AlertData;
 import com.example.reminderbylocation.Data.DataBaseManager;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 
 public class AlertsListRecycleViewAdapter extends RecyclerView.Adapter<AlertsListRecycleViewAdapter.MyViewHolder> {
     //Data accessing and mutating delegate object.

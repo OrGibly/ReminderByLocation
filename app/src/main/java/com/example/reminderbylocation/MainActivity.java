@@ -10,7 +10,7 @@ import android.view.View;
 
 import com.example.reminderbylocation.Adapters.MyFragmentPagerAdapter;
 import com.example.reminderbylocation.Data.DataBaseManager;
-import com.example.mapviewdemo.R;
+import com.example.locationbyreminder.R;
 
 public class MainActivity extends AppCompatActivity {
 
