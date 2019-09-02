@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorAlertEditorFragmentOuterBackground"
+    android:clickable="true"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:paddingLeft="60dp"
+    android:paddingTop="90dp"
+    android:paddingRight="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAlertEditorFragmentBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitleMiniEditor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAlertEditorFragmentBarBackground"
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="@color/colorSecondaryText"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewAlertName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Alert Name"
+                    android:textColor="@color/colorPrimaryTextLight"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/editTextAlertName"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/text_box"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:hint="Alert name"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Details"
+                    android:textColor="@color/colorPrimaryTextLight"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/editTextDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/text_box"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Details"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonApplyMiniEditor"
+                    android:layout_width="65dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/button_apply"
+                    android:foregroundGravity="center"
+                    android:text="Apply"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    tools:text="Apply" />
+
+                <Button
+                    android:id="@+id/buttonCancelMiniEditor"
+                    android:layout_width="65dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_cancel"
+                    android:text="Cancel"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

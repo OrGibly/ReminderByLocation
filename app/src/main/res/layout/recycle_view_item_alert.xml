@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1px"
+    android:background="@drawable/rv_item_background"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/alertsListTextViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Alert name"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/alertsListTextViewDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="detailsdetailsdetailsdetailsdetailsdetailsdetailsdetailsdetailsdetails"
+            android:textColor="@color/colorSecondaryText" />
+
+        <Switch
+            android:id="@+id/alertsListSwitchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:checked="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

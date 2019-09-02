@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#25A50D</color>
+
+<!--splash screen-->
+    <color name="colorSplashScreenBackground">#2580B1</color>
+    <color name="colorSplashScreenIcon">#2E2E2E</color>
+
+<!---->
+    <color name="colorTabLayoutBackground">#2E2E2E</color>
+    <color name="colorTabUnselected">#A0A0A0</color>
+    <color name="colorTabSelected">#2580B1</color>
+
+    <color name="colorPrimaryText">#1A1A1A</color>
+    <color name="colorSecondaryText">#636363</color>
+    <color name="colorPrimaryTextLight">#FFFFFF</color>
+    <color name="colorSecondaryTextLight">#D5D5D5</color>
+
+    <color name="colorSeparatorDark">#1B000000</color>
+    <color name="colorSeparatorLight">#1BFFFFFF</color>
+
+<!--snackbar-->
+    <color name="colorSnackbarActionText">#2580B1</color>
+
+<!--recyclerView-->
+    <color name="colorRVBackground">#ECECEC</color>
+    <color name="colorAlertRVItem">#FFFFFF</color>
+    <color name="colorAlertRVItemPressed">#E4E4E4</color>
+
+<!--alert editor-->
+    <color name="colorAlertEditorFragmentOuterBackground">#57000000</color>
+    <color name="colorAlertEditorFragmentBackground">#2E2E2E</color>
+    <color name="colorAlertEditorFragmentBarBackground">#000000</color>
+
+    <color name="colorTextBoxBackground">#FFFFFF</color>
+    <color name="colorTextBoxBorder">#868686</color>
+
+    <color name="colorCancelButton">#E9E9E9</color>
+    <color name="colorCancelButtonPressed">#CCCCCC</color>
+
+    <color name="colorApplyButton">#2580B1</color>
+    <color name="colorApplyButtonPressed">#1E678F</color>
+    <color name="colorApplyButtonDisabled">#C0C0C0</color>
+
+
+    <color name="colorCancelButton2">#25FFFFFF</color>
+    <color name="colorCancelButtonPressed2">#40FFFFFF</color>
+
+<!--alerts on map-->
+    <color name="colorMapCircleStroke">#7A436170</color>
+    <color name="colorMapCircleFill">#7A77ADC7</color>
+
+    <color name="colorMapCircleStrokeFocused">#C1436170</color>
+    <color name="colorMapCircleFillFocused">#C377ADC7</color>
+
+    <color name="colorMapCircleStrokeEditMode">#C129424E</color>
+    <color name="colorMapCircleFillEditMode">#3277ADC7</color>
+
+<!--edit mode-->
+    <color name="colorMapApplyButton">#25A50D</color>
+    <color name="colorMapCancelButton">#AF3535</color>
+    <color name="colorMapButtonFill">#8BFFFFFF</color>
+
+    <!--widgets-->
+    <color name="colorWidgetBackground">#DCE6F3</color>
+    <color name="colorWidgetMargin">#75000000</color>
+</resources>
