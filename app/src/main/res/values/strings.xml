@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LocationReminder</string>
+    <string name="app_name">ReminderByLocation</string>
     <string name="API_KEY">AIzaSyAuRuUr4OQ1LTc_7Pzm9Pc56rT0hOsawGM</string>
     <string name="snackbar_msg">To add a new alert, long click on surface of the map.</string>
     <string name="snackbar_action">got it</string>
