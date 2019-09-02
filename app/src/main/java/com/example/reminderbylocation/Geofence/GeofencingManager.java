@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Geofence;
+package com.example.reminderbylocation.Geofence;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -6,10 +6,10 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.widget.Toast;
 
-import com.example.mapviewdemo.Data.AlertData;
-import com.example.mapviewdemo.Data.DataBaseManager;
-import com.example.mapviewdemo.Location.LocationManager;
-import com.example.mapviewdemo.Notification.AlertNotification;
+import com.example.reminderbylocation.Data.AlertData;
+import com.example.reminderbylocation.Data.DataBaseManager;
+import com.example.reminderbylocation.Location.LocationManager;
+import com.example.reminderbylocation.Notification.AlertNotification;
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.location.GeofencingClient;
 import com.google.android.gms.location.GeofencingRequest;

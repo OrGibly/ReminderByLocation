@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.reminderbylocation;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,10 +14,11 @@ import android.widget.CompoundButton;
 import android.widget.PopupMenu;
 import android.widget.Toast;
 
-import com.example.mapviewdemo.Adapters.AlertsListRecycleViewAdapter;
-import com.example.mapviewdemo.Data.AlertData;
-import com.example.mapviewdemo.Data.DataBaseManager;
-import com.example.mapviewdemo.Geofence.GeofencingManager;
+import com.example.reminderbylocation.Adapters.AlertsListRecycleViewAdapter;
+import com.example.reminderbylocation.Data.AlertData;
+import com.example.reminderbylocation.Data.DataBaseManager;
+import com.example.reminderbylocation.Geofence.GeofencingManager;
+import com.example.mapviewdemo.R;
 
 
 public class AlertsListFragment extends Fragment implements Updateable {

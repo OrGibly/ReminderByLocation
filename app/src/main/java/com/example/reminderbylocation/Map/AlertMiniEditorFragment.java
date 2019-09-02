@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Map;
+package com.example.reminderbylocation.Map;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,9 +15,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.mapviewdemo.AlertEditorFragment;
-import com.example.mapviewdemo.AlertsMapFragment;
-import com.example.mapviewdemo.Data.AlertData;
+import com.example.reminderbylocation.AlertEditorFragment;
+import com.example.reminderbylocation.AlertsMapFragment;
+import com.example.reminderbylocation.Data.AlertData;
 import com.example.mapviewdemo.R;
 import com.google.android.gms.maps.model.LatLng;
 

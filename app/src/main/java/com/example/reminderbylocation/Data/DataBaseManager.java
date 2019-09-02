@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Data;
+package com.example.reminderbylocation.Data;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.annotation.Nullable;
 
-import com.example.mapviewdemo.App;
+import com.example.reminderbylocation.App;
 import com.google.android.gms.maps.model.LatLng;
 
 import java.util.ArrayList;

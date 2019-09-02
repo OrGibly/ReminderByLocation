@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Data;
+package com.example.reminderbylocation.Data;
 
 import android.support.annotation.Nullable;
 

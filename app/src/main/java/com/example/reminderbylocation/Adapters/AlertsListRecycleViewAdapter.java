@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Adapters;
+package com.example.reminderbylocation.Adapters;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -9,8 +9,8 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.example.mapviewdemo.Data.AlertData;
-import com.example.mapviewdemo.Data.DataBaseManager;
+import com.example.reminderbylocation.Data.AlertData;
+import com.example.reminderbylocation.Data.DataBaseManager;
 import com.example.mapviewdemo.R;
 
 public class AlertsListRecycleViewAdapter extends RecyclerView.Adapter<AlertsListRecycleViewAdapter.MyViewHolder> {

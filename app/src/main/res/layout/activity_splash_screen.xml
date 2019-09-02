@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorSplashScreenBackground"
     android:orientation="vertical"
-    tools:context=".SplashScreenActivity">
+    tools:context="com.example.reminderbylocation.SplashScreenActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

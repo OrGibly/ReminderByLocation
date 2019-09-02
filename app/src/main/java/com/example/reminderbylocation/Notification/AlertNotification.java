@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Notification;
+package com.example.reminderbylocation.Notification;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -8,7 +8,7 @@ import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 
-import com.example.mapviewdemo.Data.AlertData;
+import com.example.reminderbylocation.Data.AlertData;
 import com.example.mapviewdemo.R;
 
 public class AlertNotification extends Notification {

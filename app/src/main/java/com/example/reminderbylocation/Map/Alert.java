@@ -1,11 +1,11 @@
-package com.example.mapviewdemo.Map;
+package com.example.reminderbylocation.Map;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 
-import com.example.mapviewdemo.App;
-import com.example.mapviewdemo.Data.AlertData;
+import com.example.reminderbylocation.App;
+import com.example.reminderbylocation.Data.AlertData;
 import com.example.mapviewdemo.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;

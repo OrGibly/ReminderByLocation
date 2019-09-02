@@ -1,4 +1,4 @@
-package com.example.mapviewdemo.Geofence;
+package com.example.reminderbylocation.Geofence;
 
 import android.app.IntentService;
 import android.content.Intent;

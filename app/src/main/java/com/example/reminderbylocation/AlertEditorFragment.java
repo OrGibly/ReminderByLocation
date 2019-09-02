@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.reminderbylocation;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,8 +16,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mapviewdemo.Data.AlertData;
-import com.example.mapviewdemo.Data.DataBaseManager;
+import com.example.reminderbylocation.Data.AlertData;
+import com.example.reminderbylocation.Data.DataBaseManager;
+import com.example.mapviewdemo.R;
 import com.google.android.gms.maps.model.LatLng;
 
 public class AlertEditorFragment extends Fragment{

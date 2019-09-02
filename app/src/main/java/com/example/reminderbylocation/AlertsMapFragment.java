@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.reminderbylocation;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -15,12 +15,13 @@ import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.example.mapviewdemo.Data.AlertData;
-import com.example.mapviewdemo.Data.DataBaseManager;
-import com.example.mapviewdemo.Geofence.GeofencingManager;
-import com.example.mapviewdemo.Location.LocationManager;
-import com.example.mapviewdemo.Map.Alert;
-import com.example.mapviewdemo.Map.AlertMiniEditorFragment;
+import com.example.reminderbylocation.Data.AlertData;
+import com.example.reminderbylocation.Data.DataBaseManager;
+import com.example.reminderbylocation.Geofence.GeofencingManager;
+import com.example.reminderbylocation.Location.LocationManager;
+import com.example.reminderbylocation.Map.Alert;
+import com.example.reminderbylocation.Map.AlertMiniEditorFragment;
+import com.example.mapviewdemo.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;

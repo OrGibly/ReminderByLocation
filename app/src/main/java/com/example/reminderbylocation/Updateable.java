@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.reminderbylocation;
 
 public interface Updateable {
     /**

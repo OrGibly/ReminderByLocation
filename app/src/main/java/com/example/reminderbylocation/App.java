@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.reminderbylocation;
 
 import android.app.Application;
 import android.content.Context;

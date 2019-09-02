@@ -1,4 +1,4 @@
-package com.example.mapviewdemo;
+package com.example.reminderbylocation;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,8 +8,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.mapviewdemo.Adapters.MyFragmentPagerAdapter;
-import com.example.mapviewdemo.Data.DataBaseManager;
+import com.example.reminderbylocation.Adapters.MyFragmentPagerAdapter;
+import com.example.reminderbylocation.Data.DataBaseManager;
+import com.example.mapviewdemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
